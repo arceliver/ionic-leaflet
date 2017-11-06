@@ -1,0 +1,27 @@
+<ion-view cache-view="false">
+	<header-app 
+	title="maply.io" 
+	icon-left="" 
+	text-left="" 
+	badge-left="" 
+	badge-left-content=""  
+	fn-left="" 
+	icon-right="" 
+	text-right="" 
+	badge-right=""  
+	badge-right-content=""  
+	fn-right=""
+	></header-app>
+	<ion-content class="has-header" padding="false" scroll="false">
+		<div class="flex">
+			<div class="flex-header">
+				<div class="bar-header">
+					<select name="maps" ng-options="map as map.name for map in maps track by map.id" ng-model="form.selectedMap" ng-change="changeMapView()"></select>
+				</div>
+			</div>
+			<div class="flex-map">
+				<map ng-if="form.selectedMap" maps="maps" selected-map="form.selectedMap"></map>
+			</div>
+		</div>		
+	</ion-content>
+</ion-view>

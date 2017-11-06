@@ -1,0 +1,60 @@
+[
+  {
+    "id" : 1,
+    "name": "Construction Site",
+    "layer_url": "http://tiles.maply.io/unsafe/smart/filters:format(png)/https://s3-sa-east-1.amazonaws.com/maply-staging/flights/1/tiles/orthomosaic.tif/{z}/{x}/{y}.png?jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTIxMzgyNTQsImlkIjoyLCJuYW1lIjoiQWxleGFuZHJlIE1pcmFuZGEiLCJlbWFpbCI6ImFsZXhhbmRyZUBtYXBseS5pbyIsInN1YiI6MiwiY3VycmVudF9wbGFuX25hbWUiOiJBZG1pbiIsImN1cnJlbnRfcGxhbl9pZCI6MSwicGVybWlzc2lvbiI6eyJudW1iZXJPZkltYWdlcyI6MTAwMH19.56qdm-8CEO5_UAJDKp3sEGRWwLRAMTKl_HT-Ki-nvpA",
+    "bounds": [[48.85783185709663,2.19329852173979],[48.86015560207095,2.19791352854640]],
+    "tms": true,
+    "nativeZoom": {
+      "min": 12,
+      "max": 21
+    },
+    "annotations": [
+      {
+        "id": 11,
+        "coordinates": [[48.85845758761297, 2.1968854218721394]],
+        "type": "marker"
+      },
+      {
+        "id": 12,
+        "coordinates": [[48.85880434658839,2.1964207291603093],[48.858869639358275,2.196600437164307],[48.85893052037778,2.196726500988007],[48.85897640167692,2.1968244016170506],[48.859009047960285,2.196912914514542]],
+        "type": "polyline"
+      },
+      {
+        "id": 13,
+        "coordinates": [[48.85924021833064, 2.1954645216465],[48.85931653961162, 2.1955798566341405],[48.85926315884352, 2.1956811100244527],[48.8591775730304, 2.1955657750368123],[48.85920205764653, 2.195511125028134],[48.85922654225066, 2.1954564750194554]],
+        "type": "polygon"
+      }
+    ]
+  },
+  {
+    "id" : 2,
+    "name": "Horizontal Mapping",
+    "tms": true,
+    "layer_url": "http://tiles.maply.io/unsafe/smart/filters:format(png)/https://s3-sa-east-1.amazonaws.com/maply-staging/flights/2/tiles/orthomosaic.tif/{z}/{x}/{y}.png?jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1MTIxMzgyNTQsImlkIjoyLCJuYW1lIjoiQWxleGFuZHJlIE1pcmFuZGEiLCJlbWFpbCI6ImFsZXhhbmRyZUBtYXBseS5pbyIsInN1YiI6MiwiY3VycmVudF9wbGFuX25hbWUiOiJBZG1pbiIsImN1cnJlbnRfcGxhbl9pZCI6MSwicGVybWlzc2lvbiI6eyJudW1iZXJPZkltYWdlcyI6MTAwMH19.56qdm-8CEO5_UAJDKp3sEGRWwLRAMTKl_HT-Ki-nvpA",
+    "bounds":[[46.59340183936791,6.60697825231809],[46.59863877937237,6.61241277214927]],
+    "nativeZoom": {
+      "min": 12,
+      "max": 21
+    },
+    "annotations": [
+      {
+        "id": 21,
+        "coordinates": [[46.5973226807087, 6.610828489065171]],
+        "type": "marker"
+      },
+      {
+        "id": 22,
+        "coordinates": [[46.59663155003438,6.608882546424867],[46.59672370130027,6.608866453170777],[46.59677438442969,6.608964353799821],[46.59683059657235,6.608952283859254],[46.59687114299972,6.609044820070268]],
+        "type": "polyline"
+      },
+      {
+        "id": 23,
+        "coordinates": [[46.59636154592307,6.6096094250679025],[46.59637444717402,6.609642952680588],[46.59623529780536,6.610058695077896],[46.59616618374773,6.610047966241837],[46.59612932288094,6.610042601823808],[46.59620120154793,6.609828025102616],[46.59613853809998,6.609748899936677],[46.59611089243814,6.609715372323991],[46.596137616578126,6.609621495008469],[46.596238983885954,6.6096872091293335],[46.59628321683359,6.609587967395783]],
+        "type": "polygon"
+      }
+    ]
+  }
+]
+
+

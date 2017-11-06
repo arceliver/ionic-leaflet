@@ -1,0 +1,35 @@
+<div class="bar bar-header custom-header">
+	<button 
+		class="button icon menu-colors" 
+		ng-class="[ctrl.iconLeft]" 
+		ng-click="ctrl.fnLeft()"
+		ng-if="ctrl.iconLeft || ctrl.textLeft || ctrl.badgeLeft">
+			{{ctrl.textLeft}}
+		<span 
+			class="badge header-badge badge-left" 
+			ng-if="ctrl.badgeLeft && ctrl.badgeLeftContent != 0">
+				{{ctrl.badgeLeftContent}}
+		</span>
+	</button>
+
+	<h1 class="title">
+		{{ctrl.title}} 
+		<span 
+			class="badge header-badge" 
+			ng-if="ctrl.badgeTitle">
+				{{ctrl.badgeTitleContent}}
+		</span>
+	</h1>
+	<button 
+		class="button icon menu-colors" 
+		ng-class="[ctrl.iconRight]" 
+		ng-click="ctrl.fnRight()"
+		ng-if="ctrl.iconRight || ctrl.textRight || ctrl.badgeRight">
+			{{ctrl.textRight}}
+			<span 
+			class="badge header-badge badge-right" 
+			ng-if="ctrl.badgeRight">
+				{{ctrl.badgeRightContent}}
+			</span>
+	</button>
+</div>
